@@ -1,0 +1,1 @@
+# MNIST Rakam Sınıflandırma Projesi
