@@ -1,0 +1,5 @@
+# Data files
+chest_xray/
+
+#Best model
+best_model.keras
