@@ -71,11 +71,6 @@ ReduceLROnPlateau automatically reduced the learning rate at epochs 11 and 14, h
 
 ![Confusion Matrix](Images/confusion_matrix.png)
 
-| | Predicted Normal | Predicted Pneumonia |
-|---|---|---|
-| **Actual Normal** | 141 ✅ | 93 ❌ |
-| **Actual Pneumonia** | 8 ❌ | 382 ✅ |
-
 - **Pneumonia Recall: %97.9** — only 8 pneumonia cases were missed, which is critical in a medical context
 - **Normal Precision:** The model occasionally over-predicts pneumonia for normal cases (93 false positives), which is the safer error in clinical settings
 
