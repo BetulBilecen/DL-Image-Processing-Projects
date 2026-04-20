@@ -16,7 +16,7 @@ In this project, I developed a binary classification model to detect pneumonia f
 
 ## 🖼️ 1. Sample X-Ray Images
 
-![Sample X-Rays](images/sample_xrays.png)
+![Sample X-Rays](Images/sample_xrays.png)
 
 The dataset contains chest X-ray images labeled as either NORMAL or PNEUMONIA. Pneumonia cases often show increased opacity and consolidation patterns in the lungs.
 
@@ -69,7 +69,7 @@ ReduceLROnPlateau automatically reduced the learning rate at epochs 11 and 14, h
 
 ## 📊 5. Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Images/confusion_matrix.png)
 
 | | Predicted Normal | Predicted Pneumonia |
 |---|---|---|
