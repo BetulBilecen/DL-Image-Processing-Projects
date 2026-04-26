@@ -1,0 +1,30 @@
+# Python sanal ortamı
+venv/
+.venv/
+env/
+
+# PyCharm ve VS Code ayarları
+.idea/
+.vscode/
+
+# Derlenmiş dosyalar ve cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Eğitim çıktıları (Loglar ve ara ağırlıklar gitmesin)
+runs/
+
+# Veri seti (Boyutu büyük olduğu için GitHub'a atılmaz)
+Traffic Signs Detection/
+
+# Çıktı görselleri (Kod çalışınca zaten oluşacaklar)
+prediction_result.jpg
+prediction_results/
+
+# Kişisel yapılandırma dosyası (Kullanıcı adını gizlemek için)
+config.json
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
