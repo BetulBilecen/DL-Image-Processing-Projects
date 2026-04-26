@@ -10,6 +10,7 @@ In this project, I developed a GAN model to generate synthetic fashion product i
 - **Dataset:** Fashion MNIST — 60,000 grayscale images across 10 classes
 - **Task:** Generating synthetic fashion product images from random noise
 - **Training:** 100 epochs, batch size 128
+- **Best Results:** Epochs 60–80
 
 ---
 
@@ -87,9 +88,48 @@ Repeat for each batch and epoch
 
 ---
 
-## 🖼️ 4. Generated Images
+## 📈 4. Training Results
 
-*Coming soon — generated images will be added after training is complete.*
+| Epoch | Generator Loss | Discriminator Loss |
+|---|---|---|
+| 1   | 8.483 | 0.477 |
+| 20  | 0.743 | 1.322 |
+| 40  | 2.332 | 5.645 |
+| 60  | 1.122 | 1.071 |
+| 80  | 0.918 | 1.154 |
+| 100 | 0.000 | 15.942 |
+
+> ⚠️ **Mode Collapse:** After epoch 88, the Discriminator became too powerful and the Generator loss dropped to 0. This is a known GAN training instability called **mode collapse**, where the Generator stops learning and produces repetitive outputs. The best results were obtained between epochs 60–80.
+
+---
+
+## 🖼️ 5. Generated Images
+
+The following images show how the Generator improved over training:
+
+**Epoch 1** — Random noise, no structure yet
+
+![Epoch 1](Images/1_epoch.png)
+
+**Epoch 20** — Basic shapes starting to form
+
+![Epoch 20](Images/20_epoch.png)
+
+**Epoch 40** — Clothing outlines becoming visible
+
+![Epoch 40](Images/40_epoch.png)
+
+**Epoch 60** — More defined fashion items
+
+![Epoch 60](Images/60_epochs.png)
+
+**Epoch 80** — Best results, recognizable clothing shapes
+
+![Epoch 80](Images/80_epochs.png)
+
+**Epoch 100** — Mode collapse, quality degraded
+
+![Epoch 100](Images/100_epochd.png)
 
 ---
 
