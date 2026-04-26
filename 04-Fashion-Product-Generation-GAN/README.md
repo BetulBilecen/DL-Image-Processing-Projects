@@ -121,15 +121,15 @@ The following images show how the Generator improved over training:
 
 **Epoch 60** — More defined fashion items
 
-![Epoch 60](Images/60_epochs.png)
+![Epoch 60](Images/60_epoch.png)
 
 **Epoch 80** — Best results, recognizable clothing shapes
 
-![Epoch 80](Images/80_epochs.png)
+![Epoch 80](Images/80_epoch.png)
 
 **Epoch 100** — Mode collapse, quality degraded
 
-![Epoch 100](Images/100_epochd.png)
+![Epoch 100](Images/100_epoch.png)
 
 ---
 
