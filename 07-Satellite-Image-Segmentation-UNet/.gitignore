@@ -1,0 +1,8 @@
+# Data files
+aerial_dataset/
+
+#Best model
+model_best.keras
+
+__pycache__/
+.ipynb_checkpoints/
