@@ -15,7 +15,7 @@ Below is a detailed summary of the projects included in this repository. Click o
 | **05** | `05-Traffic-Sign-Detection-YOLOv8` | Trained a YOLOv8 Nano model to detect 15 traffic sign classes (speed limits, lights). Applied Mosaic augmentation, achieving **81.2% mAP50** with an inference speed of ~141ms on CPU. | `YOLOv8`, `PyTorch` |
 | **06** | `06-YOLOv8-Vehicle-Tracker-ByteTrack` | Created a robust, real-time video processing pipeline combining YOLOv8 detection with the **ByteTrack algorithm** to assign and maintain persistent multi-object tracking IDs across frames. | `YOLOv8`, `ByteTrack`, `OpenCV` |
 | **07** | `07-Satellite-Image-Segmentation-UNet` | Implemented a semantic segmentation model using the **U-Net architecture** to detect and isolate regions of interest from aerial and satellite imagery. Leveraged skip connections to preserve fine-grained spatial details, reaching an **87.00% training accuracy**. | `TensorFlow`, `Keras`, `U-Net` |
-
+| 08 | 08-Real-Time-Facial-Emotion-Recognition-MediaPipe | Developed a real-time facial emotion recognition system using MediaPipe Face Mesh and OpenCV. Implemented a personalized neutral-face calibration stage to normalize facial landmarks for each user, enabling robust detection of six facial expressions (Neutral, Happy, Sad, Surprised, Fearful, and Drowsy) from live webcam input without requiring a deep learning classifier. | MediaPipe, OpenCV, Computer Vision, Facial Landmark Detection |
 ## 🛠️ Technologies & Tools Used
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
